@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title>MY WEBSITE</title>
+</head>
+<link rel="Stylesheet" href="Mywebsite.css">
+    
+  <style>/*Internal*/
+    /*type selector p,div*/
+    img{
+        width: 200px;
+        height: 200px;
+        color: black;
+        border: 3px rgb(140, 103, 178) solid;
+        border-radius: 10px;
+    }
+    .Bag{
+        background-color: rgb(25, 7, 51);
+        width: 250px;
+        border: 4px rgb(140, 103, 178) solid;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.5s ease-in-out;
+    }
+    /*class selector .class name*/
+    .Asec{
+        color: rgb(243, 156, 43);
+        font-size: small;
+        align-items: center;
+    }
+   .car{
+    background-color: rgb(25, 7, 51);
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content:space-evenly; 
+   }
+   .car:hover .Bag{
+    transform: scale(0.9);
+   }
+   .car .Bag:hover{
+    transform: scale(0.9) rotate(10deg)  ;
+    background-color: rgb(15, 4, 26);
+    color: aliceblue;
+    border: 3px solid rgb(147, 41, 94) ;
+    
+   }
+   header{
+    background-color: rgb(21, 6, 45);
+    font-size: 40px;
+    color: antiquewhite;
+    text-align: center;
+    width: 1600px;
+   }
+   footer{
+    background-color: rgb(25, 7, 51);
+    font-size: 20px;
+    color: antiquewhite;
+    text-align: center;
+    width: 1600px;
+   }
+  </style>
+<body>
+    <header>My Stuffs</header>
+    <br>
+    <div class="car">
+        <div class="Bag">
+
+        <h1 style="color: rgb(22, 125, 125);">Nature</h1>
+        <h2>Sunset </h2>
+        <img src ="p1.jpg" alt="nature">
+        <h3 class="Asec">The sunset whispers that endings can be beautiful too." 🌅✨</h3>
+        <h3 class="Asec">Thank you</h3>
+        
+    </div>
+    <div class="Bag">
+
+        <h1 style="color: rgb(22, 125, 125);">Building</h1>
+        <h2>Chruch </h2>
+        <img src ="p5.jpg" alt="image">
+        <h3 class="Asec">Within these walls, silence speaks louder than words, and light feels like grace." ⛪✨</h3>
+        <h3 class="Asec">Thank you</h3>
+        
+    </div>
+    <div class="Bag">
+
+        <h1 style="color: rgb(22, 125, 125);">Pet</h1>
+        <h2>Cat </h2>
+        <img src ="cat3.jpg" alt="nature">
+        <h3 class="Asec">A cat is a small piece of the universe wrapped in fur and mystery." 🐾✨
+</h3>
+        <h3 class="Asec">Thank you</h3>
+        
+    </div>
+    <div class="Bag">
+
+        <h1 style="color: rgb(22, 125, 125);">Cartoon</h1>
+        <h2>Doremon </h2>
+        <img src ="Doremon.jpg" alt="nature">
+        <h3 class="Asec">Doraemon reminds us that friendship is the best gadget of all." 💙✨</h3>
+        <h3 class="Asec">Thank you</h3>
+        
+    </div>
+    </div>
+    <br>
+    <footer>Done by @Joshpin kayalvizhi</footer>
+    
+</body>
+</html>
